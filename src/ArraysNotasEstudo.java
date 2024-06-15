@@ -8,6 +8,8 @@ public class ArraysNotasEstudo {
 
         System.out.println(Arrays.toString (idades));
 
+        Gato[] gatos = {new Gato("Maggie"), new Gato("Babaloo")};
+        System.out.println(Arrays.toString(gatos));
     }
     
 
