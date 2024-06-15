@@ -20,6 +20,7 @@ public class Main {
         Double somaNaoEstatica = new Matematica().somaNaoEstatica(90, 2);
         System.out.println(soma);
         System.out.println(somaNaoEstatica);
+        
 
     }
 }
