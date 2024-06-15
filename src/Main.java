@@ -3,18 +3,21 @@ import br.com.wellingtondev.moradias.Casa;
 public class Main {
     public static void main(String[] args) {
         
-        Casa casa1 = new Casa(false);
-        Casa casa2 = new Casa(true);
-        Casa casa3 = new Casa();
+        // Casa casa1 = new Casa(false);
+        // Casa casa2 = new Casa(true);
+        // Casa casa3 = new Casa();
 
-        casa1.acenderLuz();
-        casa2.acenderLuz();
-        casa3.acenderLuz();
+        // casa1.acenderLuz();
+        // casa2.acenderLuz();
+        // casa3.acenderLuz();
 
         
 
-        casa3.nome = "Minha casa";
-        System.out.println(casa3.nome);
+        // casa3.nome = "Minha casa";
+        // System.out.println(casa3.nome);
+
+        Double soma = Matematica.soma(1, 2);
+        System.out.println(soma);
 
     }
 }
