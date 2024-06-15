@@ -16,8 +16,10 @@ public class Main {
         // casa3.nome = "Minha casa";
         // System.out.println(casa3.nome);
 
-        Double soma = Matematica.soma(1, 2);
+        Double soma = Matematica.soma(90, 2);
+        Double somaNaoEstatica = new Matematica().somaNaoEstatica(90, 2);
         System.out.println(soma);
+        System.out.println(somaNaoEstatica);
 
     }
 }
