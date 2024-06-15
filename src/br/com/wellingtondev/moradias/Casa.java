@@ -1,7 +1,7 @@
 package br.com.wellingtondev.moradias;
 public class Casa {
     
-    public boolean inteligente;
+    public Boolean inteligente = false;
     public String nome;
 
     public Casa(){

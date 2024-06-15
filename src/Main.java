@@ -11,6 +11,8 @@ public class Main {
         casa2.acenderLuz();
         casa3.acenderLuz();
 
+        
+
         casa3.nome = "Minha casa";
         System.out.println(casa3.nome);
 
