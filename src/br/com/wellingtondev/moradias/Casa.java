@@ -1,8 +1,8 @@
 package br.com.wellingtondev.moradias;
 public class Casa {
     
-    boolean inteligente;
-    String nome;
+    public boolean inteligente;
+    public String nome;
 
     public Casa(){
 
@@ -12,7 +12,7 @@ public class Casa {
     public Casa(boolean inteligente){
         this.inteligente = inteligente;
     }
-    void acenderLuz(){
+    public void acenderLuz(){
         if(inteligente)
             System.out.println("Comando de voz");
         else    

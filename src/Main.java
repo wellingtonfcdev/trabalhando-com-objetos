@@ -1,4 +1,4 @@
-import moradias.Casa;
+import br.com.wellingtondev.moradias.Casa;
 
 public class Main {
     public static void main(String[] args) {
@@ -6,9 +6,6 @@ public class Main {
         Casa casa1 = new Casa(false);
         Casa casa2 = new Casa(true);
         Casa casa3 = new Casa();
-
-        casa1.inteligente = false;
-        casa2.inteligente = true;
 
         casa1.acenderLuz();
         casa2.acenderLuz();
