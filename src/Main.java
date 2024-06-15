@@ -1,15 +1,19 @@
 public class Main {
     public static void main(String[] args) {
         
-        Casa casa1 = new Casa();
-        Casa casa2 = new Casa();
+        Casa casa1 = new Casa(false);
+        Casa casa2 = new Casa(true);
+        Casa casa3 = new Casa();
 
         casa1.inteligente = false;
         casa2.inteligente = true;
 
         casa1.acenderLuz();
         casa2.acenderLuz();
+        casa3.acenderLuz();
 
+        casa3.nome = "Minha casa";
+        System.out.println(casa3.nome);
 
     }
 }
