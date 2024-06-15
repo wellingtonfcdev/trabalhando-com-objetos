@@ -1,3 +1,4 @@
+package br.com.wellingtondev.moradias;
 public class Casa {
     
     boolean inteligente;
